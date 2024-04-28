@@ -2,10 +2,10 @@ import React from "react"
 
 
 function Row({transaction}){
- const rows = transaction.map((transaction) =>  {
+ const rows = transaction.map((transaction,index) =>  {
 return (
        
-        <tr>
+        <tr key={index + 1}>
         <td>{transaction.date}</td>
         <td>{transaction.description}</td>
         <td>{transaction.category}</td>
@@ -14,9 +14,9 @@ return (
        
 )})
 return (
-     <div>
+     <>
      {rows}
-     </div>
+     </>
 )}
 
 export default Row
