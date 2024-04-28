@@ -1,29 +1,8 @@
 import Row from "./Row"
 
 
-
-function Table(){
-    // const transaction = [
-    //     {
-            
-    //         date : "13th April",
-    //         description : "Withdraw",
-    //         category : "Income",
-    //         amount: "3000"
-    
-    //     },
-    //     {
-    //     date : "12th April",
-    //     description : "Withdraw",
-    //     category : "Income",
-    //     amount: "3000"
-    //     }
-    // ]
-
-
-    
-
-    return(
+function Table({transaction}){
+   return(
         <>
 <table className="table">
     <thead>
@@ -35,13 +14,11 @@ function Table(){
         </tr>
         </thead>
         <tbody>
-       <Row transaction={transaction} />
+       <Row transaction={transaction}/>
       </tbody>
 </table>
 </>
-    )
-
-}
+    )}
 
 
 export default Table
