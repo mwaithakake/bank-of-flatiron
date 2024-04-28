@@ -50,7 +50,7 @@ const [transaction , setTransactions] = useState(arr)
     <div className="App">
       <Header/>
       <Search transaction = {transaction} setTransactions = {setTransactions} arr = {arr}/>
-      <Form/>
+      <Form transaction={transaction} setTransactions={setTransactions}/>
      <Table transaction = {transaction}/>
       
     </div>
