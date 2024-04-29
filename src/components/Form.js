@@ -27,6 +27,7 @@ setData(
 }
 
  return(
+   
 <form onSubmit={submitForm} className="input-group mb-3">
 <input type="date" className="form-control" onChange={handleChange} placeholder="Date" value={Dataform.date} name= "date" /> 
 <input type="text" className="form-control" onChange={handleChange}placeholder="Description" value={Dataform.description} name= "description" />
