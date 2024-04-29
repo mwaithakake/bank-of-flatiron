@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.869788a1.css",
-    "main.js": "/static/js/main.213e09b6.js",
-    "static/js/453.d3943c81.chunk.js": "/static/js/453.d3943c81.chunk.js",
-    "index.html": "/index.html",
-    "main.869788a1.css.map": "/static/css/main.869788a1.css.map",
-    "main.213e09b6.js.map": "/static/js/main.213e09b6.js.map",
-    "453.d3943c81.chunk.js.map": "/static/js/453.d3943c81.chunk.js.map"
+    "main.css": "/bank-of-flatiron/static/css/main.869788a1.css",
+    "main.js": "/bank-of-flatiron/static/js/main.edc27c60.js",
+    "static/js/453.d3943c81.chunk.js": "/bank-of-flatiron/static/js/453.d3943c81.chunk.js",
+    "index.html": "/bank-of-flatiron/index.html",
+    "main.869788a1.css.map": "/bank-of-flatiron/static/css/main.869788a1.css.map",
+    "main.edc27c60.js.map": "/bank-of-flatiron/static/js/main.edc27c60.js.map",
+    "453.d3943c81.chunk.js.map": "/bank-of-flatiron/static/js/453.d3943c81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.869788a1.css",
-    "static/js/main.213e09b6.js"
+    "static/js/main.edc27c60.js"
   ]
 }
